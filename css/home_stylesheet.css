@@ -1,0 +1,109 @@
+* { 
+	margin:0; 
+	padding:0; 
+}
+.header{	
+	width: 73.5%;
+	float: right;
+	background-color: #292F41;
+	height: 135px;		
+}
+.header p{
+	font-size: 2.5em;
+	color: white;
+	float: right;
+	margin: 40px 30px 10px 0;
+	font-family: sans-serif;
+}
+.logo{
+	height: 135px;
+	max-width: 100%;	
+}
+.body{
+	width: 100%;
+	height: 100%;		
+	position: relative;
+}
+.navbar{
+	height: 100%;
+	width: 26.5%;
+	border-right: 1.5px solid #AAAAAA;
+	float: left;
+	position: fixed;
+}
+.navbar ul {
+	list-style-type: none;
+	background-color: #292F41;
+	overflow: hidden;
+}
+.navbar li {
+	display: block;
+}
+li a{
+	font-family: "sourcesanspro",sans-serif;
+	display: block;
+	color: white;
+	padding: 16px;
+	text-align: center;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #3b5998;
+}
+.body .display{	
+	width: 72%;
+	float: right;
+	float: top;
+	margin-top: 1px;
+	padding: 15px 0 0 15px;
+}
+.display h1 {
+	font-family: sans-serif;
+	color: rgb(41, 47, 64);
+    font-size: 3em;
+    font-weight:300;
+}
+.PersonalDetails{
+	margin: 15px 0 10px 5px;
+	padding: 10px;
+	width: 95%;
+	height: 200px;
+	border: 1px solid #AAAAAA;	
+	background: #F0F0F0;
+}
+.ProDt{
+	float: left;
+}
+.ProPic {
+	float: right;
+	margin: 20px;	
+}
+.PersonalDetails label{
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 15px 0 15px 3px;	
+}
+.PersonalDetails p{
+	font-family: sans-serif;
+	font-size: 20px;
+	margin: 7px 0 15px 85px;	
+}
+.news{
+	margin: 35px 20px 15px 10px;
+}
+.news h1{
+	font-family: sans-serif;
+	color: rgb(41, 47, 64);
+    font-weight:300;
+}
+.news .newsTitle {
+	font-family: sans-serif;
+	color: rgb(0, 91, 157);
+	margin: 10px 0 5px 10px;
+}
+.news .newsDetail {
+	font-family: sans-serif;
+	color: rgb(68, 68, 68);
+	margin: 0 0 0 25px;
+}

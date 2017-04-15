@@ -1,0 +1,129 @@
+* { 
+	margin:0; 
+	padding:0; 
+}
+.header{	
+	width: 73.5%;
+	float: right;
+	background-color: #292F41;
+	height: 135px;		
+}
+.header p{
+	font-size: 2.5em;
+	color: white;
+	float: right;
+	margin: 40px 30px 10px 0;
+	font-family: sans-serif;
+}
+.logo{
+	height: 136.5px;
+	max-width: 100%;	
+}
+.body{
+	width: 100%;
+	height: 100%;		
+	position: relative;
+}
+.navbar{
+	height: 100%;
+	width: 26.5%;
+	border-right: 1.5px solid #AAAAAA;
+	float: left;
+	position: fixed;
+}
+.navbar ul {
+	list-style-type: none;
+	background-color: #292F41;
+	overflow: hidden;
+}
+.navbar li {
+	display: block;
+}
+li a{
+	font-family: "sourcesanspro",sans-serif;
+	display: block;
+	color: white;
+	padding: 16px;
+	text-align: center;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #3b5998;
+}
+.display h1 {
+	font-family: sans-serif;
+	color: rgb(41, 47, 64);
+    font-size: 3em;
+    font-weight:300;
+    margin-bottom: 20px;
+}
+.body .display{	
+	width: 72%;
+	float: right;
+	float: top;
+	margin-top: 1px;
+	padding: 15px 0 0 15px;
+}
+.frm{
+	width: 70%;
+	float: left
+}
+.detail {
+	width: 25%;
+	float: right;
+}
+.detail p {
+	font-family: "sourcesanspro",sans-serif;
+	color: rgb(41, 47, 64);
+	margin: 10px 0 5px 15px;
+	font-size: 18px;
+}
+.detail h1 {
+	font-family: "sourcesanspro",sans-serif;
+	color: rgb(41, 47, 64);
+	margin: 10px 0 5px 15px;
+	font-size: 20px;
+}
+input[type=text], input[type=number]{    
+    padding: 12px 20px;    
+    margin: 8px;
+    width: 100%;
+    font-size:17px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;        
+    outline: none;
+}
+select{
+	padding: 12px 20px;    
+    margin: 8px;
+    width: 30%;
+    font-size:17px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;        
+    outline: none;
+}
+input[type=text]:focus, input[type=number]:focus, select:focus {
+    border: 3px solid #555;
+}
+input[type=submit] {
+    width: 30%;
+    background-color: #a62436;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0 20px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   	font-size: 1em;   	
+}
+input[type=submit]:hover {
+   background-color: #005b9d;
+}
+form p{
+	font-family: "sourcesanspro",sans-serif;
+	color: rgb(41, 47, 64);
+	margin: 10px 0 5px 15px;
+	font-size: 20px;
+}
